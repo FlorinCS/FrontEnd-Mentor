@@ -1,0 +1,168 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color:  rgb(194, 194, 194);
+    font-size:16px;
+}
+
+#grid1{
+    margin-top:7%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+   
+
+    
+    
+}
+#grid2{
+    display:grid;
+    grid-template-columns: auto;
+    padding-left:50px;
+
+}
+h1{
+    font-size:5vw;
+    letter-spacing: 10px;
+    
+}
+p{
+    font-size:1.5vw;
+    color:hsl(0, 36%, 70%);
+}
+#fs{
+    color:hsl(0, 93%, 68%);
+    font-family: 'Josefin Sans', sans-serif;
+}
+#ss{
+    font-weight:450px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#search{
+    width:100%;
+    height:40px;
+    border:none;
+    border-radius:40px;
+}
+#form{
+    display:grid;
+    grid-template-columns: auto auto;
+    padding-top:25px;
+    padding-bottom:50px;
+  
+   
+}
+#doi{
+    padding-top:20px;
+}
+#org{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-column-gap:100px;
+    border:none;
+    width:65%;
+    box-shadow: 2px 2px 6px 6px #888888;
+    
+ 
+}
+
+#foto1{
+width:100%;
+ height:100%;
+
+}
+#unu{
+    padding-top:20px;
+}
+#sageata{
+    position:relative;
+ margin-top:0px;
+ background-color:hsl(0, 93%, 68%);
+ padding-top:10px;
+ padding-bottom:10px;
+ z-index:1;
+ margin-left:-35px;
+ border-radius:40px;
+ padding-left:30px;
+ padding-right:30px;
+}
+
+#sageata:hover{
+    background-color:hsl(0, 36%, 70%);
+    box-shadow: 2px 2px 3px 3px #888888;
+}
+#search{
+    padding-left: 10px;
+}
+#foto3{
+   display:none;
+}
+
+@media only screen and (max-width: 993px) {
+    body {
+      background-color:white;
+    }
+  
+
+    #grid1{
+        
+        
+        
+        border:none;
+       margin-top:0;
+        box-shadow:none; 
+        
+     
+    }
+    #org{
+        box-shadow:none;
+        width:100%;
+        display:grid;
+        grid-template-columns:none;
+    grid-column-gap:0;
+    grid-template-areas: "head"
+                             "middle"
+                             "low";
+    }
+    #grid2{
+        padding-left:0;
+    }
+    #foto{
+      display:none;
+    }
+    #foto3{
+        padding-top:20px;
+        display:block;
+    }
+    #res1{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+    #res2{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+    #form{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+    #search{
+        width:70%;
+    }
+    h1{
+        font-size:7vw;
+        letter-spacing: 10px;
+        text-align:center;
+        
+    }
+    p{
+        font-size:4vw;
+    }
+  
+}
