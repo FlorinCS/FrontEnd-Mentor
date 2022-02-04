@@ -1,0 +1,145 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+#center{
+    margin-top:5%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: 'Libre Franklin', sans-serif;
+}
+h1{
+    text-align:center;
+    font-size:2.7vw;
+    font-family: 'Libre Franklin', sans-serif;
+    color:rgb(173, 173, 173);
+    font-weight:300;
+}
+span{
+    color:black;
+    font-weight:900;
+    font-family: 'Libre Franklin', sans-serif;
+    
+}
+p{
+    text-align:center;
+    font-family: 'Libre Franklin', sans-serif;
+}
+#forma{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: 'Libre Franklin', sans-serif;
+    
+}
+form{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-column-gap:15px;
+   
+    padding-left:6px;
+    padding-right:6px;
+    
+
+}
+#poza2{
+    width:100%;
+    height:auto;
+    max-width:450px;
+}
+#poza{
+    padding-top:3%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  
+}
+#search{
+   width:300px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:40px;
+    border:1px solid rgb(187, 186, 186);
+    padding-left:15px;
+    font-family: 'Libre Franklin', sans-serif;
+    
+
+}
+#buts{
+   
+    padding-top:11px;
+    padding-bottom:11px;
+    padding-left:25px;
+    padding-right:25px;
+    border-radius:40px;
+    border:none;
+    background-color:hsl(223, 87%, 63%);
+    color:white;
+    font-weight:bold;
+    font-family: 'Libre Franklin', sans-serif;
+}
+#grid{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap:20px;
+    padding-top:20px;
+    color:blue;
+}
+#center2{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+#first{
+    background-color:white;
+    height:16px;
+    padding:4px;
+    border-radius:50%;
+    border:1px solid rgb(202, 200, 200);
+   
+}
+#second{
+    background-color:white;
+    height:16px;
+    padding:4px;
+    border-radius:50%;
+    border:1px solid rgb(202, 200, 200);
+   
+}
+#third{
+    background-color:white;
+    height:16px;
+    padding:4px;
+    border-radius:50%;
+    border:1px solid rgb(202, 200, 200);
+   
+}
+#first:hover{
+background-color: blue;
+color:white;
+border:1px solid white;
+}
+#second:hover{
+    background-color: blue;
+    color:white;
+    border:1px solid white;
+    }
+    #third:hover{
+        background-color: blue;
+        color:white;
+        border:1px solid white;
+        }
+
+@media only screen and (max-width: 456px) {
+   
+    form{
+        grid-template-columns: auto;
+        grid-row-gap:15px;
+    }
+    #buts{
+        width:100%;
+        
+    }
+  }

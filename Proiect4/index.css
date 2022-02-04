@@ -1,0 +1,128 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: hsl(204, 43%, 93%);
+}
+
+#center{
+    
+    width:570px;
+}
+#grid{
+
+   display:grid;
+   grid-template-areas:
+   " head head "
+   " middle middle2"
+   "low low2"
+   ;
+   width:100%;
+}
+
+
+#unu{
+   grid-area:head;
+   background-color:white;
+   padding-left:30px;
+   padding-top:15px;
+  padding-right:20px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-family: 'Karla', sans-serif;
+}
+#doi{
+  grid-area:middle;
+  background-color: hsl(179, 62%, 43%);
+  text-align:center;
+  padding-top:10px;
+  color:white;
+  border-bottom-left-radius: 8px;
+  font-family: 'Karla', sans-serif;
+}
+#trei{
+    grid-area:middle2;
+    background-color:hsl(179, 85%, 47%) ;
+    padding-top:10px;
+    padding-left:30px;
+    color:white;
+    border-bottom-right-radius: 8px;
+    font-family: 'Karla', sans-serif;
+}
+#center2{
+    margin-top:10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+}
+#but{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#grid2{
+    display:grid;
+    grid-template-columns: auto auto;
+    margin-top:-16px;
+   
+}
+#two{
+    margin-left:-148px;
+    margin-top:15px;
+    font-size:15px;
+    color:hsl(179, 85%, 47%);
+}
+#access{
+    margin-top:-13px;
+}
+button{
+    padding-top:12px;
+    padding-bottom:12px;
+    padding-left:80px;
+    padding-right:80px;
+    border:none;
+    border-radius:8px;
+    background-color: hsl(71, 73%, 54%);
+}
+button a{
+    text-decoration: none;
+    color:white;
+    font-weight:bold;
+    font-size:15px;
+}
+#sub{
+    margin-top:18px;
+}
+#title{
+    color:hsl(179, 62%, 43%);
+}
+#gold{
+    color:hsl(71, 73%, 54%);
+}
+#text{
+    font-size:15px;
+    padding-bottom:20px;
+    margin-top:-10px;
+    color:rgb(177, 174, 174);
+}
+
+
+@media only screen and (max-width: 612px) {
+    
+#grid{
+    display:block;
+}
+#trei{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding-bottom:15px;
+}
+#doi{
+    border-radius:0px;
+    padding-bottom:30px;
+}
+#unu{
+padding-bottom:15px;
+}
+
+  }
