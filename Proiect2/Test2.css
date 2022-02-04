@@ -1,0 +1,132 @@
+body{
+    font-size: 16px;
+   padding:0;
+   margin:0;
+   background-color:hsl(225, 100%, 94%);
+}
+#bg{
+   position: absolute;
+}
+#first{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    top:10px;
+    padding-left:30px;
+    padding-right:30px;
+    
+
+    
+}
+#par{
+    font-size:15px;
+}
+#org{
+    border:none;
+    border-radius:10px;
+    background-color: white;
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.4);
+}
+#foto{
+    border:none;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    width:100%;
+    height:auto;
+}
+h2{
+    font-weight:900;
+    font-family: 'Poppins', sans-serif;
+}
+#grid1{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    background-color:hsl(225, 100%, 98%);
+    width:100%;
+    
+    border:none;
+    border-radius:10px;
+}
+#sup{
+    padding-left:15px;
+    padding-right:15px;
+}
+#unu{
+    margin-top:15px;
+}
+#trei{
+    margin-top:10px;
+    text-align:left;
+}
+#doi p{
+  text-align:left;
+}
+button{
+    padding-left:120px;
+    padding-right:120px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border:none;
+    border-radius:8px;
+    background-color: hsl(245, 75%, 52%);
+}
+button a{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-size:15px;
+}
+#grid2{
+    display:grid;
+    grid-template-columns: auto;
+    width:100%;
+}
+#hm{
+    padding-top:20px;
+}
+#hm2{
+    padding-top:20px;
+    padding-bottom:10px;
+}
+#hm2 button{
+    
+    background-color:white;
+    
+}
+
+#hm2 button a{
+    color:hsl(224, 83%, 84%);
+}
+#hm2 button a:hover{
+    color:hsl(225, 94%, 80%);
+}
+#hm button:hover{
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.4);
+}
+#trei a:hover{
+    text-decoration: none;
+    color:hsl(225, 97%, 76%);
+}
+#bg2{
+    display:none;
+}
+#sup2{
+    padding-left:15px;
+    padding-right:15px;
+}
+span{
+    color:hsl(225, 94%, 80%);
+}
+@media only screen and (max-width: 379px) {
+  button a{
+     display:flex;
+  }
+  #first{
+     padding:10%;
+  }
+  
+
+  }
